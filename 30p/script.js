@@ -32,7 +32,7 @@ const calculateAverageMaleScore = (list) => {
   );
   const average = totalScore / maleStudents.length;
 
-  console.log("Điểm trung bình nhóm nam:", average);
+  console.log("Điểm trung bình nhóm nam:", average.toFixed(1));
   return average;
 };
 getTopFemaleStudents(students);
